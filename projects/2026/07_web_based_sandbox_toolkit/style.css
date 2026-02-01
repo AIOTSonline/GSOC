@@ -1,0 +1,5 @@
+body { background: #fce4ec; }
+.container { background: #fff; border-radius: 18px; box-shadow: 0 8px 32px rgba(0,0,0,0.18); padding: 40px; }
+h1 { color: #ad1457; }
+.project-meta, .section-title { color: #880e4f; }
+.desc { color: #4e342e; }

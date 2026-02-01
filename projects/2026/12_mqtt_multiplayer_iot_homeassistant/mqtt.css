@@ -1,0 +1,5 @@
+/* MQTT Project Specific Styles */
+.container { background: #fffde7; }
+h1 { color: #fbc02d; }
+.project-meta, .section-title { color: #f9a825; }
+.desc { color: #6d4c41; }

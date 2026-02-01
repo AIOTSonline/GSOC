@@ -1,0 +1,14 @@
+body { font-family: 'Roboto', sans-serif; background: linear-gradient(120deg, #e0f7fa, #80deea); margin: 0; padding: 0; }
+.container { max-width: 1200px; margin: 40px auto; background: #fff; border-radius: 18px; box-shadow: 0 8px 32px rgba(0,0,0,0.18); padding: 40px; }
+h1 { color: #00796b; font-size: 2.8em; margin-bottom: 0.2em; text-align: center; }
+.subtitle { color: #00838f; font-size: 1.3em; margin-bottom: 2em; text-align: center; }
+.company-desc { color: #006064; font-size: 1.1em; margin-bottom: 2em; text-align: center; }
+.projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 32px; }
+.project-card { background: #e0f2f1; border-radius: 14px; box-shadow: 0 4px 16px rgba(0,0,0,0.08); padding: 28px 24px; transition: transform 0.15s, box-shadow 0.15s; }
+.project-card:hover { transform: translateY(-6px) scale(1.03); box-shadow: 0 8px 32px rgba(0,0,0,0.16); }
+.project-title { color: #006064; font-size: 1.4em; font-weight: 700; margin-bottom: 0.5em; }
+.project-meta { color: #00838f; font-size: 1em; margin-bottom: 0.7em; }
+.project-link { display: inline-block; margin-top: 1em; color: #00796b; text-decoration: none; font-weight: 700; }
+.project-link:hover { text-decoration: underline; }
+.year-select, .project-select, .task-select { margin: 0 10px 20px 0; padding: 8px 16px; border-radius: 8px; border: 1px solid #b2ebf2; font-size: 1em; background: #e0f7fa; color: #006064; }
+@media (max-width: 700px) { .container { padding: 10px; } .projects-grid { grid-template-columns: 1fr; } }

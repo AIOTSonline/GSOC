@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiplayer, IoT, and Home Assistant support via two MQTT bricks</title>
+  <link rel="stylesheet" href="../../../assets/css/main.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Multiplayer, IoT, and Home Assistant support via two MQTT bricks</h1>
+    <div class="project-meta">90, 175 or 350 Hours | Advanced</div>
+    <div class="section-title">Required Skills</div>
+    <ul>
+      <li>Kotlin</li>
+      <li>Android-Development</li>
+      <li>Agile Development</li>
+      <li>Test Driven Development</li>
+      <li>Clean Code</li>
+    </ul>
+    <div class="section-title">Possible Mentors</div>
+    <div>Wolfgang Slany, XXXXX</div>
+    <div class="section-title">Expected Outcome</div>
+    <div>Two new bricks for sending and receiving MQTT messages</div>
+    <div class="section-title">Difficulty level</div>
+    <div>Advanced</div>
+    <div class="section-title">Description</div>
+    <div>Implement MQTT support for the Catrobat language in Catroid (Pocket Code and its flavors) so Catrobat programs can publish/receive network messages for multiplayer games, IoT, and Home Assistant setups. Add two new Catrobat bricks (activated via app settings):<br><br>
+    <b>Broadcast … via MQTT on channel …</b><br>
+    <b>When you receive a message via MQTT on channel … store it in …</b><br><br>
+    Broker/TLS/auth/client-id are configured globally in app settings, and connect/subscribe happen lazily to avoid boilerplate (wildcard channels should store channel+message as JSON). Provide example projects for two multiplayer architectures:<br>
+    <ul>
+      <li>one phone acting as a local hub (extending the existing Bluetooth multiplayer variables concept)</li>
+      <li>a dedicated hub over local Wi-Fi (e.g., Mosquitto) coordinating multiple players</li>
+    </ul>
+    Also provide a Home Assistant-oriented topic convention under catrobat/... enabling wall-tablet dashboards and home automations (Tuya/Smart Life and other Home Assistant-supported hardware).<br><br>
+    Ensure reliability (reconnect/offline handling) and strong automated tests for core logic (especially topic-filter matching and message routing).</div>
+    <a class="project-link" href="task.html">View Entry Task</a>
+    <a class="back-link" href="../../../index.html">&#8592; Back to Projects</a>
+  </div>
+  <script src="../../../assets/js/main.js"></script>
+</body>
+</html>

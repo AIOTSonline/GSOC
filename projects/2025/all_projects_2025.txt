@@ -1,0 +1,48 @@
+AI-Generated 3D Models from Marine Animals
+350 Hours {: .label .label-blue }
+
+{: .highlight }
+
+Preferred Skills: Generative AI (Stable Diffusion, GANs, Autoencoders), 3D Modeling (Blender, Unreal Engine), Marine Biology Data Sources
+Possible Mentors: Krishan Mohan Patel, Himanshu Kumar
+Expected Outcome: Functionally coded 3D models
+Difficulty level: Medium
+
+This year's focus of Catrobat includes topics around marine biology as an application area, and we have several projects around the general topic. This project will focus on developing AI-powered 3D models of marine species using generative AI techniques. By training machine learning models on marine biology datasets, realistic and interactive 3D assets of octopus, fish, corals, and other underwater species will be created for use in AR applications for teaching marine biology in high schools, where teachers and pupils will be able to “program” the simulated marine animals for learning purposes integrated into biology curricula. These models will adapt dynamically based on environmental conditions like depth, temperature, and biodiversity levels.
+
+AR-Based Interactive Marine Ecosystem Simulation
+350 Hours {: .label .label-blue }
+
+{: .highlight }
+
+Preferred Skills: AR Development (Unity, ARKit, ARCore), Physics-Based Ecosystem Simulations, AI-Powered Content Adaptation
+Possible Mentors: Himanshu Kumar, Aryavardhan Sharma
+Expected Outcome: AR simulation code
+Difficulty level: Advanced
+
+This year's focus of Catrobat includes topics around marine biology as an application area, and we have several projects around the general topic. This project will develop an immersive AR simulation that allows users to explore marine ecosystems and understand ecological interactions. Students will be able to visualize food chains, coral reef dynamics, and the effects of pollution through real-time AR simulations. This project aims to provide an engaging, hands-on learning experience for STEM education.
+
+AI-Driven Adaptive Learning Module for Marine Biology
+350 Hours {: .label .label-blue }
+
+{: .highlight }
+
+Preferred Skills: AI for Adaptive Learning (Reinforcement Learning, NLP), Educational Gamification Techniques, Data Analytics for User Behavior Tracking
+Possible Mentors: Aryavardhan Sharma, Supreeth M Kumar
+Expected Outcome: AI-based machine learning module
+Difficulty level: Advanced
+
+This year's focus of Catrobat includes topics around marine biology as an application area, and we have several projects around the general topic. This project will implement an AI-driven adaptive learning system that customizes educational content based on student engagement and progress. The system will analyze user interactions, quizzes, and exploration patterns to personalize the learning path, ensuring a more effective and engaging experience. We will provide remote access to hardware on which the learning algorithms can be executed.
+
+Mobile Application for Marine Biology AR Learning
+350 Hours {: .label .label-blue }
+
+{: .highlight }
+
+Preferred Skills: Mobile AR Development (Flutter, React Native), UI/UX Design for Interactive Learning, Voice & Gesture Recognition
+Possible Mentors: Supreeth M Kumar, Paul Spiesberger
+Expected Outcome: Mobile AR app
+Difficulty level: Advanced
+
+This year's focus of Catrobat includes topics around marine biology as an application area, and we have several projects around the general topic. This project will focus on developing a mobile AR application that allows students to access interactive marine biology lessons anywhere. The app will support gesture-based interaction, voice commands, and real-time exploration of AI-generated underwater environments, making STEM education more accessible.
+

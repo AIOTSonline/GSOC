@@ -1,0 +1,175 @@
+1. Skeleton-Based Procedural Animation System for Marine Organisms
+
+Duration: 350 Hours
+Project Size: Large
+Difficulty Level: Advanced
+Mentors: Nikhil Ranjan Rajhans, Abha Kumari
+
+Required Skills:
+Python, C#, Procedural Animation, Skeletal Systems, Blender Scripting, 3D Geometry, Unity, Blender, Git, GitHub, ML Model Integration
+
+Expected Outcome:
+A reusable skeleton-driven procedural animation framework for marine animals.
+
+Description:
+A rule-based skeletal animation system where marine animal motion (swimming, turning, fleeing, idling) is generated dynamically instead of using keyframes. Motion is driven by behavior states and environmental conditions, enabling seamless integration with AI behavior engines and ecosystem simulations. Designed to be lightweight and reusable for real-time educational applications.
+
+2. Gemini-Powered Ecosystem Narration and Analysis Interface
+
+Duration: 175 Hours
+Project Size: Medium
+Difficulty Level: Average
+Mentors: Abha Kumari, Garima Jain, Kumari Deepika
+
+Required Skills:
+Python, C#, LLM Integration, Prompt Engineering, Explainable AI, Simulation Analysis, Unity, Git
+
+Expected Outcome:
+An AI-powered narration and analysis layer for marine ecosystem simulations.
+
+Description:
+Integrates a Gemini-based natural language interface to provide real-time narration, ecosystem summaries, causal explanations, and natural-language spawning of organisms and events. The LLM strictly acts as an interface and explanation layer, while the core simulation remains deterministic and transparent.
+
+3. AI-Driven Dynamic Procedural Map Generation System
+
+Duration: 175 Hours
+Project Size: Medium
+Difficulty Level: Advanced
+Mentors: Kumari Deepika, Atharva Prashant Joshi
+
+Required Skills:
+C#, Procedural Generation, AI Simulation Systems, Spatial Data Structures, Noise Functions, Environmental Modeling, Behavior Modeling, Unity, Blender, Git, Auth, DBMS
+
+Expected Outcome:
+A dynamically evolving coral reef environment guided by AI-driven simulation models.
+
+Description:
+Combines procedural generation with AI-based environmental intelligence to simulate reef growth, ecological balance, and adaptive behavior. Uses a seed-based deterministic generator enhanced by AI rules to ensure synchronized AR experiences across devices. Supports terrain topology, coral growth, environmental motion, and ecosystem evolution over time.
+
+4. Upgradation of AR-Based Interactive and Procedural Marine Ecosystem Simulation
+
+Duration: 350 Hours
+Project Size: Large
+Difficulty Level: Advanced
+Mentors: Krishna Mohan Patel, Himanshu Kumar
+
+Required Skills:
+C#, Java, Unity, Vuforia SDK, AR Foundation, Firebase, Cloud, Git, REST API, Auth, DBMS, CI/CD, Blender, ML Integration
+
+Expected Outcome:
+A more realistic, scalable, and performance-optimized AR marine ecosystem platform.
+
+Description:
+Enhances an existing AR marine ecosystem with improved procedural generation, advanced ecosystem behaviors (predator-prey cycles, climate effects), and performance optimizations (LOD pipelines, shaders, streaming spawning). Adds Firebase-backed infrastructure for authentication, progress storage, and module sharing.
+
+5. AR-Based Human Interaction Enabled Application for Marine Life
+
+Duration: 175 Hours
+Project Size: Medium
+Difficulty Level: Advanced
+Mentors: Somya Barolia, Nikhil Ranjan Rajhans
+
+Required Skills:
+Python, YOLO, MediaPipe, Pose Detection, Machine Learning, C#, Unity, AR Foundation, Vuforia SDK, Firebase, Cloud, Git, REST API, CI/CD, Blender
+
+Expected Outcome:
+A gesture-driven AR marine learning experience.
+
+Description:
+Introduces human interaction using hand gestures and pose-based controls instead of traditional UI. Users can interfere with creature movement, trigger behaviors (e.g., octopus camouflage or ink defense), and influence the ecosystem through real-time camera-based interaction.
+
+6. Extension of Sandbox Toolkit for Simplifying Marine AR Module Development (Unity)
+
+Duration: 350 Hours
+Project Size: Large
+Difficulty Level: Advanced
+Mentors: Ashwani Kumar Moudgil, Shivendra Verma
+
+Required Skills:
+Java, C#, Unity, Unity Editor Tooling, ScriptableObjects, AR Foundation, Firebase, Cloud, Git, REST API, CI/CD, Blender
+
+Expected Outcome:
+A modular Unity-based toolkit for building marine AR modules.
+
+Description:
+Enhances the Marine AR Module Builder with drag-and-drop tools, reusable behavior templates, JSON/script-based module definitions, validation tools, curriculum alignment, and optional cloud syncing. Designed as a reusable Unity package.
+
+7. Web-Based Sandbox Toolkit for Marine AR Modules
+
+Duration: 350 Hours
+Project Size: Large
+Difficulty Level: Advanced
+Mentors: Somya Barolia, Shivendra Verma
+
+Required Skills:
+JavaScript, WebXR, Three.js / A-Frame, HTML/CSS, Firebase, REST API, Git, CI/CD, Blender
+
+Expected Outcome:
+A browser-based WebAR toolkit for marine education.
+
+Description:
+Provides a dashboard-based Web AR module builder enabling educators to create marine AR scenes directly from the browser. Includes drag-and-drop asset placement, reusable behavior templates, JSON-based modules, validation checks, and Firebase-backed hosting and versioning.
+
+8. AR Rocket Builder & Space Flight Sandbox
+
+Duration: 350 Hours
+Project Size: Large
+Difficulty Level: Advanced
+Mentors: Himanshu Kumar, Abhishek Kumar
+
+Required Skills:
+ARCore/ARKit, Physics Simulation, Rigid Body Dynamics, Vector Math, Orbital Mechanics, Unity, Flutter 3D Integration, Firebase, Cloud Sync, Git, CI/CD
+
+Expected Outcome:
+An AR rocket construction and flight simulator with physics-accurate behavior.
+
+Description:
+Users build rockets in their real environment and launch them with real-time thrust, drag, gravity, and fuel simulation. Includes failure visualization, educational overlays for forces and orbits, gravity presets (Earth/Moon/Mars), and replay tools.
+
+9. AR Gravity & Planetary Physics Simulator
+
+Duration: 175 Hours
+Project Size: Medium
+Difficulty Level: Advanced
+Mentors: Abhishek Kumar, Ashwani Kumar Moudgil
+
+Required Skills:
+AR Rendering, Newtonian Physics, N-Body Simulation, Numerical Integration, Optimization, 3D Visualization, Flutter, Unity, Firebase, Git
+
+Expected Outcome:
+An AR gravity sandbox for real-time orbital mechanics.
+
+Description:
+Allows users to spawn celestial bodies in their environment and observe gravity-driven motion. Includes optimized solvers, orbit visualization, scaling controls, and presets like solar systems, binary stars, and black hole experiments.
+
+10. AR Interactive Physics Playground
+
+Duration: 350 Hours
+Project Size: Large
+Difficulty Level: Advanced
+Mentors: Shivendra Verma, Himanshu Kumar
+
+Required Skills:
+AR Interaction Design, Physics Engines, Collision Systems, Rendering Optimization, Flutter, Unity, Firebase, Git, REST APIs
+
+Expected Outcome:
+A modular AR physics playground for hands-on science experiments.
+
+Description:
+Children run interactive physics experiments (pendulums, ramps, projectiles, levers, collisions) in real-world AR spaces. Includes guided prompts and simplified explanations. Designed as a reusable AR education framework.
+
+11. Sentiment Analysis of Cephalopods
+
+Duration: 350 Hours
+Project Size: Large
+Difficulty Level: Advanced
+Mentors: Aryavardhan Sharma, Krishna Mohan Patel, Himanshu Kumar
+
+Required Skills:
+Java, Python, Machine Learning, Deep Learning, Multi-Modal Modeling, Computer Vision, Model Optimization, Git, REST API, Authentication
+
+Expected Outcome:
+An open-source multi-modal pipeline for automated cephalopod behavioral sentiment analysis.
+
+Description:
+Develops a system using video and optional bioacoustic data to infer behavioral states such as stress, calm, curiosity, or aggression. Includes dataset ingestion, feature extraction, model training and evaluation, deployment APIs, and a demo dashboard. Designed for extensibility and edge deployment.
