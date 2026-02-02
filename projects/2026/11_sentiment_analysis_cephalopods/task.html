@@ -3,24 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Entry Task - Sentiment Analysis of Cephalopods</title>
+  <title>Entry Task - Sentiment Analysis of Cephalopods (GSoC 2026)</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="../../../assets/css/glass.css">
 </head>
 <body>
   <div class="container glass">
-    <h1 style="font-size:2em;letter-spacing:1px;text-shadow:0 2px 16px rgba(0,0,0,0.08);margin-bottom:0.2em;">Entry Task</h1>
+    <h1 style="font-size:2em;letter-spacing:1px;text-shadow:0 2px 16px rgba(0,0,0,0.08);margin-bottom:0.2em;">Entry Task - Sentiment Analysis of Cephalopods (GSoC 2026)</h1>
     <div class="desc">
-      <b>Task:</b> Develop a minimal sentiment analysis pipeline for cephalopod behavioral data.<br><br>
-      <b>Requirements:</b>
+      <h2>Goal</h2>
+      <p>The goal of this entry task is to assess an applicant’s basic readiness for a research-oriented project: data handling, simple feature extraction, reproducibility, and the ability to reason about behavioral signals. This task is intentionally small and exploratory.</p>
+
+      <h2>Task Description</h2>
+      <h3>Data handling</h3>
       <ul>
-        <li>Collect or use a provided dataset of cephalopod behavioral observations (text or video annotations).</li>
-        <li>Implement a basic sentiment analysis model (rule-based or ML) to classify behaviors as positive, negative, or neutral.</li>
-        <li>Visualize the results in a simple dashboard or report.</li>
-        <li>Document your code and approach.</li>
-        <li>Provide a short video demo and a brief write-up explaining your design and how it could be extended for more complex analysis or real-time use.</li>
+        <li>Select a short video clip (10–30 seconds) of an aquatic animal (cephalopod preferred).</li>
+        <li>Load the video using Python and report frame rate, resolution, and duration.</li>
       </ul>
-      <b>Evaluation:</b> Data processing, model quality, visualization, code clarity, and documentation.
+
+      <h3>Feature Extraction</h3>
+      <p>Implement any two simple, interpretable features (choose two):</p>
+      <ul>
+        <li>Frame-to-frame motion magnitude (frame differencing or optical flow)</li>
+        <li>Area or extent of movement over time</li>
+        <li>Color or intensity histogram changes across frames</li>
+        <li>Approximate contour size or bounding-area variation</li>
+      </ul>
+
+      <h3>Visualization</h3>
+      <p>Plot the extracted features over time and include at least one visualization that plausibly supports behavioral interpretation (e.g., low vs high activity periods).</p>
+
+      <h3>Short Analysis</h3>
+      <p>Write a 5–10 sentence explanation describing what behavioral information the selected features may capture, key limitations, and how additional modalities (audio, posture) could improve inference.</p>
+
+      <h2>Submission Format</h2>
+      <p>Publish a public GitHub repository containing:</p>
+      <ul>
+        <li>Source code (Python script or Jupyter notebook)</li>
+        <li>Any small sample data used, or clear instructions to obtain it</li>
+        <li>A README with setup instructions, a short description of implemented features, and sample plots/screenshots</li>
+      </ul>
+
+      <h2>Evaluation</h2>
+      <p>Evaluated on correct data handling, code clarity, quality of reasoning, and reproducibility. Advanced models or large datasets are not required.</p>
     </div>
     <a class="back-link" href="index.html">&#8592; Back to Project</a>
   </div>

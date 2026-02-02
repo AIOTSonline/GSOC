@@ -8,42 +8,21 @@
 </head>
 <body>
   <div class="container">
-    <h1>Entry Task</h1>
+    <h1>Entry Task — MQTT Multiplayer / IoT</h1>
     <div class="desc">
-      <b>Goal:</b> Add an MQTT settings section to Catroid that can later be used by the MQTT bricks. This must be visible in the running app, persist correctly, and be covered by automated tests.<br><br>
-      <b>Requirements:</b>
-      <ol>
-        <li><b>Settings UI:</b> Add a new “MQTT” entry in the app’s settings below (and similar to) the Raspberry Pi settings, with these fields:
-          <ul>
-            <li>MQTT extension (checkbox; default off)</li>
-            <li>Broker host (text; default e.g. 192.168.0.1)</li>
-            <li>Broker port (number; default 1883)</li>
-            <li>Use TLS (checkbox; default off)</li>
-            <li>Username (text; optional)</li>
-            <li>Password (text; optional; should not be shown in plain text while typing)</li>
-            <li>Client ID (text; optional)</li>
-          </ul>
-        </li>
-        <li><b>Persistence + accessor API:</b> Values must be stored persistently (survive app restart). Provide a small, clean accessor API (Kotlin preferred) so future code can read: enabled, host, port, tlsEnabled, username, password, clientId. Keep naming clean and consistent (Clean Code).</li>
-        <li><b>Basic validation:</b> Port must be a valid integer (1–65535).</li>
-        <li><b>Tests (automated):</b> Add automated tests that verify at least:
-          <ul>
-            <li>defaults are returned correctly</li>
-            <li>values are persisted and reloaded correctly</li>
-            <li>enabling/disabling affects the “inactive” UI state OR at minimum the logic that determines whether fields are active</li>
-          </ul>
-        </li>
-        <li><b>Local coverage evidence (required):</b> Provide a locally generated coverage report for the code you added/changed (HTML, screenshot, or zipped report), created for instance via Android Studio “Run with Coverage”. Include a short note stating how you generated it.</li>
-        <li><b>Engineering style / process:</b> TDD commit history is mandatory: tests first (red), minimal implementation (green), then refactors. Multiple small commits with meaningful messages, tests for following production code in separate commits; no squashing. Clean Code: excellent names, clear structure, minimal duplication. Avoid comments (few exceptions where they truly add value).</li>
-        <li><b>Build & CI:</b> The branch must compile and all tests must pass. Provide a GitHub Actions run link from your fork showing green build/tests, at least related to your code.</li>
-      </ol>
-      <b>Submission format:</b> Fork the repo, create a branch from develop, push your work, and provide links to your fork branch, compare link, GitHub Actions run, and local coverage artifact (zip/screenshot + how generated).<br><br>
-      <b>Required demo artifacts:</b>
+      <h2>Goal</h2>
+      <p>Quickly validate MQTT understanding and simple integration skills.</p>
+
+      <h2>Task</h2>
+      <p>Build a short script that publishes and subscribes to a topic (local Mosquitto or public broker), demonstrating message exchange and simple state updates. Include README and one example log output.</p>
+
+      <h2>Deliverables</h2>
       <ul>
-        <li>~5 minute screen capture video walkthrough (showing the new MQTT settings UI, persistence, accessor API, tests, and explanations)</li>
-        <li>AI review artifact: Provide a link to a chat transcript/export where an AI tool reviews your submission and you address the key feedback.</li>
+        <li>Repo with script, README, and example output log</li>
       </ul>
-      <b>Evaluation:</b> Working feature in the app (settings + persistence), test quality, TDD, Clean Code, reliability, and clear demo.
+
+      <h2>Evaluation</h2>
+      <p>We judge by clarity, reproducibility, and minimal working demonstration.</p>
     </div>
     <a class="back-link" href="index.html">&#8592; Back to Project</a>
   </div>

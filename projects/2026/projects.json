@@ -10,5 +10,7 @@
   {"id": "09_ar_gravity_planetary_physics_simulator", "title": "AR Gravity & Planetary Physics Simulator", "meta": "Medium | 175 Hours | Advanced"},
   {"id": "10_ar_interactive_physics_playground", "title": "AR Interactive Physics Playground", "meta": "Large | 350 Hours | Advanced"},
   {"id": "11_sentiment_analysis_cephalopods", "title": "Sentiment Analysis of Cephalopods", "meta": "Large | 350 Hours | Advanced"},
-  {"id": "12_mqtt_multiplayer_iot_homeassistant", "title": "Multiplayer, IoT, and Home Assistant support via two MQTT bricks", "meta": "90, 175 or 350 Hours | Advanced"}
+  {"id": "12_mqtt_multiplayer_iot_homeassistant", "title": "Multiplayer, IoT, and Home Assistant support via two MQTT bricks", "meta": "90, 175 or 350 Hours | Advanced"},
+  {"id": "13_blockchain_based_ethical_governance_for_iot_care_systems", "title": "Blockchain-Based Ethical Governance for IoT Care Systems", "meta": "Large | 350 Hours | Advanced"},
+  {"id": "14_gemini_api_powered_intelligent_care_assistant", "title": "Gemini-API–Powered Intelligent Care Assistant", "meta": "Large | 350 Hours | Intermediate to Advanced"}
 ]
