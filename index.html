@@ -4,34 +4,85 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>GSOC Projects Portal</title>
+
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
 	<link rel="stylesheet" href="assets/css/root.css">
 	<link rel="stylesheet" href="assets/css/theme.css">
 	<link rel="stylesheet" href="assets/css/glass.css">
+
+	<style>
+		.submit-task-btn {
+			display: inline-block;
+			padding: 14px 28px;
+			font-size: 1.1em;
+			font-weight: 700;
+			border-radius: 14px;
+			text-decoration: none;
+			color: #ffffff;
+			background: linear-gradient(135deg, #00796b, #00bfa5);
+			box-shadow: 0 8px 24px rgba(0, 121, 107, 0.35);
+			transition: transform 0.2s ease, box-shadow 0.2s ease;
+		}
+
+		.submit-task-btn:hover {
+			transform: translateY(-2px) scale(1.03);
+			box-shadow: 0 12px 32px rgba(0, 121, 107, 0.45);
+		}
+	</style>
 </head>
+
 <body>
 	<button id="theme-toggle" class="theme-toggle" title="Toggle day/night mode">🌙</button>
+
 	<div class="container glass">
-		<h1 style="font-size:2.8em;letter-spacing:1px;text-shadow:0 2px 16px rgba(0,0,0,0.08);margin-bottom:0.2em;">GSOC Projects Portal</h1>
-		<div class="subtitle" style="font-size:1.3em;margin-bottom:2em;text-align:center;">Explore innovative, real-world projects and entry tasks for GSOC, powered by <b>Arishna IoT Solutions</b>.</div>
-		<div class="company-desc" style="margin-bottom:2em;text-align:center;">
-			<span style="font-size:1.1em;">Arishna IoT Solutions is a leader in IoT, AR, and AI for education, industry, and smart environments. We empower organizations and learners with cutting-edge technology, hands-on learning, and scalable platforms.</span><br>
-			<a href="https://arishnaiotsolutions.com/" target="_blank" rel="noopener" style="color:#00796b;font-weight:700;">Learn more about us &rarr;</a>
+		<h1 style="font-size:2.8em;letter-spacing:1px;text-shadow:0 2px 16px rgba(0,0,0,0.08);margin-bottom:0.2em;">
+			GSOC Projects Portal
+		</h1>
+
+		<div class="subtitle" style="font-size:1.3em;margin-bottom:2em;text-align:center;">
+			Explore innovative, real-world projects and entry tasks for GSOC, powered by
+			<b>Arishna IoT Solutions</b>.
 		</div>
+
+		<div class="company-desc" style="margin-bottom:2em;text-align:center;">
+			<span style="font-size:1.1em;">
+				Arishna IoT Solutions is a leader in IoT, AR, and AI for education, industry, and smart environments.
+				We empower organizations and learners with cutting-edge technology, hands-on learning,
+				and scalable platforms.
+			</span>
+			<br>
+			<a href="https://arishnaiotsolutions.com/" target="_blank" rel="noopener"
+			   style="color:#00796b;font-weight:700;">
+				Learn more about us →
+			</a>
+		</div>
+
 		<div style="margin-bottom: 2em; text-align:center;">
 			<select id="year-select" class="year-select" aria-label="Select year">
 				<option value="">All Years</option>
 				<option value="2026">2026</option>
 				<option value="2025">2025</option>
 			</select>
+
 			<select id="project-select" class="project-select" aria-label="Select project">
 				<option value="">All Projects</option>
 			</select>
 		</div>
+
+		<div style="text-align:center; margin-bottom:2.5em;">
+			<a href="https://forms.gle/9ghZajSyz3ktxLYV7"
+			   target="_blank"
+			   rel="noopener"
+			   class="submit-task-btn">
+				🚀 Submit Your Task
+			</a>
+		</div>
+
 		<div id="projects-grid" class="projects-grid" aria-live="polite"></div>
 	</div>
+
 	<script src="assets/js/theme.js"></script>
 	<script src="assets/js/root.js"></script>
 </body>
 </html>
-
