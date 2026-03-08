@@ -2,6 +2,8 @@
 
 This website showcases project ideas, requirements, and entry tasks for GSOC (Google Summer of Code) for the years 2025 and 2026. It is designed for both applicants and mentors to easily browse, filter, and access all project details and tasks.
 
+https://aiotsonline.github.io/GSOC/
+
 ## Features
 - **Year and Project Selection:** Filter projects by year (2025, 2026) and by project name.
 - **Modern UI:** Responsive, clean, and visually appealing interface with separate CSS and JS for maintainability.
